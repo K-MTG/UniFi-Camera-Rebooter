@@ -1,0 +1,26 @@
+# config.yaml.example
+# Replace username/password/ip_address for your cameras.
+#
+# schedule takes a list of times (local timezone) in 24-hour "HH:MM" format for camera reboots.
+
+cameras:
+  - ip_address: 10.0.1.69
+    username: ubnt
+    password: 1234
+    schedule:
+     - "05:15"
+     - "22:30"
+
+
+  - ip_address: 10.0.1.70
+    username: ubnt
+    password: hunter2
+    schedule:
+     - "05:15"
+
+  - ip_address: 10.0.1.71
+    username: ubnt
+    password: yourpassword
+    schedule:
+     - "05:15"
+

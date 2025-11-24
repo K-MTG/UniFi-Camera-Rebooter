@@ -1,0 +1,57 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+venv/
+.env/
+.env.*/
+.venv/
+.venv*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+
+# -----------------------------
+# Project specific
+# -----------------------------
+
+# Local config overrides
+config.yaml
+*.secret.yaml
+
+# Logs
+logs/
+*.log
+
+# -----------------------------
+# Docker
+# -----------------------------
+# Ignore local build outputs
+docker-compose.override.yml
+.docker/
+tmp/
