@@ -4,8 +4,8 @@ services:
     container_name: unifi-camera-rebooter
     restart: unless-stopped
     volumes:
-      - ./config:/opt/unifi-camera-rebooter/config.yaml:ro
+      - ./config.yaml:/opt/unifi-camera-rebooter/config.yaml:ro
     logging:
       options:
-        max-size: "10m"  # Limit each log file to 10MB
-        max-file: "3"    # Keep only 3 log files before rotating
+        max-size: "10m"
+        max-file: "3"
